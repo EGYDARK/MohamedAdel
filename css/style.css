@@ -424,6 +424,15 @@ h3.my-profession
 {
     color: var(--skin-color);
 }
+h3.my-profession1
+{
+    font-size: 30px;
+    margin: 15px 0;
+}
+.typing2
+{
+    color: var(--skin-color);
+}
 .home-info p 
 {
     margin-bottom: 70px;
@@ -911,6 +920,7 @@ h3.my-profession
     width: 750px;
     object-fit: cover;
 }
+
 /*  ================================== Contact ================================= */
 .main-content
 {
@@ -1207,6 +1217,26 @@ h3.my-profession
         left: 50%;
     }
 }
-
-
+@media (max-width: 510px) {
+        .typing,.my-profession {
+            display: none;
+        }
+    }
+    
+@media (min-width: 511px) {
+        .typing {
+        display: inline-block;
+        }
+    }
+@media (max-width: 510px) {
+        .typing1 {
+            display: inline-block;
+        }
+    }
+    
+@media (min-width: 511px) {
+        .typing1,.my-profession1 {
+        display: none;
+        }
+    }
 /* ====================== Responsive Section End ================================ */
